@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body background color */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #9ba1a8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+
+nav ul li a:hover {
+  color: #f1c40f; /* Change to your preferred hover color */
+}
+
+/* Main content styles */
+main {
+  padding: 30px;
+  margin-left: 560px;
+}
+
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-left: 230px;
+}
+
+main p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Stylish button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1c40f; /* Change to your preferred button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #e67e22; /* Change to your preferred button hover color */
+}
