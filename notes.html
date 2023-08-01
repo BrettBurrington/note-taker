@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Taker - Notes</title>
+</head>
+
+<body>
+  <header>
+    <h1>Note Taker - Notes</h1>
+  </header>
+
+  <main>
+    <div>
+      <!-- Existing Notes List -->
+      <div>
+        <h2>Existing Notes</h2>
+        <ul id="existing-notes">
+          <!-- Existing notes will be dynamically populated here -->
+        </ul>
+      </div>
+
+      <!-- New Note Form -->
+      <div>
+        <h2>Add a New Note</h2>
+        <form id="note-form">
+          <label for="note-title">Note Title:</label>
+          <input type="text" id="note-title" required>
+
+          <label for="note-text">Note Text:</label>
+          <textarea id="note-text" rows="4" required></textarea>
+
+          <button type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Note Taker App</p>
+  </footer>
+
+  <!-- Your JavaScript file to handle the front-end functionality -->
+  <script src="script.js"></script>
+</body>
+
+</html>
