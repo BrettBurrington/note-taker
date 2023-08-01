@@ -1,18 +1,22 @@
 [
-    {
-      "id": "1",
-      "title": "Note 1",
-      "text": "This is the content of Note 1."
-    },
-    {
-      "id": "2",
-      "title": "Note 2",
-      "text": "This is the content of Note 2."
-    },
-    {
-      "id": "3",
-      "title": "New Note",
-      "text": "This is a newly added note."
-    }
-  ]
-  
+  {
+    "id": "",
+    "title": "",
+    "content": ""
+  },
+  {
+    "title": "hehehaha",
+    "content": "blah ",
+    "id": "00dd6766-9511-409c-adcf-51a2fa486e3e"
+  },
+  {
+    "title": "geroviuvghb",
+    "content": "\\uyte3wgfd",
+    "id": "f0657c04-d716-491d-b958-8515be522b83"
+  },
+  {
+    "title": "brett",
+    "content": "test",
+    "id": "bf1e4d9e-1fd9-4e8f-b024-9413bf7dd8fe"
+  }
+]
